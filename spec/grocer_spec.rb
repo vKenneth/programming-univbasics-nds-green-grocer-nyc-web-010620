@@ -327,3 +327,6 @@ describe "Grocer" do
   end
 end
 
+{:item => "PEANUT BUTTER", :price => 2.40, :clearance => true,  :count => 2},
+  {:item => "KALE", :price => 3.00, :clearance => false, :count => 3},
+  {:item => "SOY MILK", :price => 3.60, :clearance => true,  :count => 1}
