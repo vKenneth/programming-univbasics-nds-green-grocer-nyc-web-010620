@@ -219,7 +219,7 @@ describe "Grocer" do
         expect(item[:price]).to be_within(0.1).of(clearance_prices[item[:item]])
         i += 1
       end
-    end
+    nil
   end
 
   describe "#checkout" do
