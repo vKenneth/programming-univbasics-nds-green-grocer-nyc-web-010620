@@ -182,7 +182,7 @@ describe "Grocer" do
         cheese = find_item_by_name_in_collection('CHEESE', items)
         cart = [cheese, cheese]
         consolidated_cart = consolidate_cart(cart)
-        coupon_applied_cart = apply_coupons(consolidated_cart, [])
+        coupon_applied_cart = apply_coupons(consolidated_cart, [0])
 
         cheese_in_cart = find_item_by_name_in_collection("CHEESE", coupon_applied_cart)
 
@@ -326,4 +326,3 @@ describe "Grocer" do
     end
   end
 end
-v
